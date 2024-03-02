@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C32E37B-1DC5-4C65-8AD1-0594FBF46422}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperMarketBillingSystem</RootNamespace>
+    <AssemblyName>SuperMarketBillingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A2ZSuperMarketDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="A2ZSuperMarketDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A2ZSuperMarketDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.cs" />
+    <Compile Include="AdminAddCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddCashier.Designer.cs">
+      <DependentUpon>AdminAddCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLoginPage.Designer.cs">
+      <DependentUpon>AdminLoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHomePage.Designer.cs">
+      <DependentUpon>AdminHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateCashier.Designer.cs">
+      <DependentUpon>AdminUpdateCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateCustomer.Designer.cs">
+      <DependentUpon>AdminUpdateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateSKU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateSKU.Designer.cs">
+      <DependentUpon>AdminUpdateSKU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierAddCustomer.Designer.cs">
+      <DependentUpon>CashierAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierHomePage.Designer.cs">
+      <DependentUpon>CashierHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierLoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierLoginPage.Designer.cs">
+      <DependentUpon>CashierLoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierNewBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierNewBill.Designer.cs">
+      <DependentUpon>CashierNewBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierRequestAdminToUpdateSKU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierRequestAdminToUpdateSKU.Designer.cs">
+      <DependentUpon>CashierRequestAdminToUpdateSKU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierScoutSKU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierScoutSKU.Designer.cs">
+      <DependentUpon>CashierScoutSKU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBill.Designer.cs">
+      <DependentUpon>NewBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestFromCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestFromCashier.Designer.cs">
+      <DependentUpon>RequestFromCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlDbConnection.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="WelcomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomePage.Designer.cs">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminAddCashier.resx">
+      <DependentUpon>AdminAddCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLoginPage.resx">
+      <DependentUpon>AdminLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHomePage.resx">
+      <DependentUpon>AdminHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdateCashier.resx">
+      <DependentUpon>AdminUpdateCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdateCustomer.resx">
+      <DependentUpon>AdminUpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdateSKU.resx">
+      <DependentUpon>AdminUpdateSKU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierAddCustomer.resx">
+      <DependentUpon>CashierAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierHomePage.resx">
+      <DependentUpon>CashierHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierLoginPage.resx">
+      <DependentUpon>CashierLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierNewBill.resx">
+      <DependentUpon>CashierNewBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierRequestAdminToUpdateSKU.resx">
+      <DependentUpon>CashierRequestAdminToUpdateSKU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierScoutSKU.resx">
+      <DependentUpon>CashierScoutSKU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewBill.resx">
+      <DependentUpon>NewBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestFromCashier.resx">
+      <DependentUpon>RequestFromCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomePage.resx">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="A2ZSuperMarketDataSet.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet.xss">
+      <DependentUpon>A2ZSuperMarketDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet1.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet1.xss">
+      <DependentUpon>A2ZSuperMarketDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet10.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet10.xss">
+      <DependentUpon>A2ZSuperMarketDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet11.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet11.xss">
+      <DependentUpon>A2ZSuperMarketDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet12.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet12.xss">
+      <DependentUpon>A2ZSuperMarketDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet13.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet13.xss">
+      <DependentUpon>A2ZSuperMarketDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet14.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet14.xss">
+      <DependentUpon>A2ZSuperMarketDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet2.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet2.xss">
+      <DependentUpon>A2ZSuperMarketDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet3.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet3.xss">
+      <DependentUpon>A2ZSuperMarketDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet4.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet4.xss">
+      <DependentUpon>A2ZSuperMarketDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet5.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet5.xss">
+      <DependentUpon>A2ZSuperMarketDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet6.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet6.xss">
+      <DependentUpon>A2ZSuperMarketDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet7.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet7.xss">
+      <DependentUpon>A2ZSuperMarketDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet8.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet8.xss">
+      <DependentUpon>A2ZSuperMarketDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet9.xsc">
+      <DependentUpon>A2ZSuperMarketDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="A2ZSuperMarketDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A2ZSuperMarketDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A2ZSuperMarketDataSet9.xss">
+      <DependentUpon>A2ZSuperMarketDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
